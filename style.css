@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.header-container {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    background-color: gray;
+    width: 70px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    transition-property: background-color;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+/* --------------------------------------------------------- */
+
+.main-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-podcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 600px;
+}
+
+        .txt-container {
+            width: 400px;
+            height: 300px;
+        }
+
+        .Zagolovok {
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+
+        .txt {
+            margin-top: 40px;
+            margin-left: 15px;
+        }
+
+        .more {
+            width: 170px;
+            height: 40px;
+            background-color: orange;
+            border-radius: 10px;
+            margin-top: 40px;
+            margin-left: 15px;
+        }
+
+.vid-container {
+    width: 600px;
+    height: 300px;
+}
+
+        .video {
+            margin-left: 35px;
+        }
+
+.second-txt-container {
+    width: 400px;
+    height: 300px;
+}
+
+        .more2 {
+            width: 170px;
+            height: 40px;
+            background-color: white;
+            border: solid;
+            border-color: orange;
+            border-radius: 10px;
+            margin-top: 24px;
+            margin-left: 15px;
+        }
+
+.txt-img-container {
+    margin-left: 30px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 530px;
+    height: 300px;
+}
+
+    .txt-img {
+        width: 265px;
+        height: 150px;
+    }
+    .txt-p {
+        margin-top: 5px;
+    }
+
+/* -----------------------------------------------------     */
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: gray;
+    height: 70px;
+}
+
+.footer-p {
+    margin-right: 550px;
+}
+
+.img-container {
+    display: flex;
+    width: 210px;
+    justify-content: space-around;
+}
